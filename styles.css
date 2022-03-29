@@ -1,0 +1,114 @@
+table{
+    table-layout:fixed;
+}
+#notasPh {
+    
+    height: 90vh;
+    max-height: 90vh;
+    overflow-y: scroll;
+}
+
+.cabecera td{
+    font-weight: bolder;
+}
+
+#contenido{
+    
+    width: 600px;
+    overflow-y: scroll;
+}
+
+button{
+    background-color: #996600;
+    color:#ffcc66;
+    font-size: x-large;
+  }
+
+
+
+  .item21 {
+      grid-area: ins;
+      overflow: hidden;
+    }
+    .item22 {
+      grid-area: telf;
+      overflow: hidden;
+      font-size: x-large;
+      text-align: center;
+    }
+
+  .item1 {
+      grid-area: header;
+      background-color: #ffdd99;
+      overflow: hidden;
+    }
+
+    .item2 {
+      display:grid;
+      grid-template-areas:
+        'ins ins'
+        'telf buscar'
+        
+        ;
+      grid-area: tel;
+      background-color: #ffdd99;
+      overflow: hidden;
+      font-size: x-large;
+    }
+
+    div{
+      background-color: #ffdd99;
+    }
+
+    .item3 {
+      grid-area: dato;
+      background-color: #ffdd99;
+      overflow: hidden;
+    }
+
+    .item4 {
+      grid-area: nota;
+      background-color: #ffdd99;
+      overflow: hidden;
+    }
+
+    .bold{
+      font-weight: bold;
+    }
+
+    .enLinea{
+      display: inline;
+    }
+
+
+    body {
+      display: grid;
+      grid-template-columns: 30% 35% 35%;
+      grid-template-areas:
+        'header header header'
+        'tel nota nota'
+        'dato nota nota'
+        'dato nota nota'
+        'dato nota nota'
+        'dato nota nota'
+        'dato nota nota'
+        'dato nota nota'
+        'dato nota nota'
+        'dato nota nota';
+      gap: 10px;
+      background-color: #ffcc66;
+      padding: 10px;
+    }
+
+  h1{
+    text-align: center;
+  }
+
+  h3{
+    text-align: center;
+  }
+
+  input[type=submit]{
+    background-color: #996600;
+    color:#ffcc66;
+  }
